@@ -16,4 +16,12 @@ class PenjumlahanTest extends TestCase
         $hasil = $x + $y;
         $this->assertEquals(15, $hasil);
     }
+
+    public function test_penjumlahan_can_be_correct(): void
+    {
+        $x = 20;
+        $y = 30;
+        $hasil = $x + $y;
+        $this->assertEquals(50, $hasil);
+    }
 }
