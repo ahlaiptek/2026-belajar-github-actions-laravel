@@ -17,6 +17,14 @@ class PenjumlahanTest extends TestCase
         $this->assertEquals(15, $hasil);
     }
 
+    public function test_nilai_bulan_sekarang_dan_bulan_lalu()
+    {
+        $x = 10;
+        $y = 5;
+        $hasil = $x + $y;
+        $this->assertEquals(15, $hasil);
+    }
+
     public function test_penjumlahan_can_be_correct(): void
     {
         $x = 20;
